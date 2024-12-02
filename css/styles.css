@@ -1,5 +1,126 @@
+/* Estilo geral da página */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    color: #7DA8D5;
+    color: #333;
+    background-color: #ecf2f9; /* Cor de fundo geral com 95% */
+}
+
+/* Título principal */
+h1 {
+    color: #003366; /* Cor do título */
+    margin-top: 20px;
+}
+
+/* Estilo de formulários */
+.form-container {
+    background-color: #ffffff; /* Cor de fundo branca para o formulário */
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d8e5f3; /* Cor sutil para borda */
+}
+
+label {
+    font-weight: normal;
+    margin: 10px 0 5px;
+    display: inline-block;
+    color: #003366; /* Cor do texto do rótulo */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #d8e5f3; /* Cor da borda */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff; /* Fundo branco no input */
+}
+
+button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Cor de fundo quando o mouse passar */
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+/* Estilo de seções de resultado */
+.result {
+    background-color: #e7f3e7; /* Cor suave para resultado */
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #4CAF50; /* Cor do texto */
+}
+
+/* Estilo dos elementos da Teimosinha */
+.teimosinha-container {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #d8e5f3;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.teimosinha-title {
+    font-size: 1.5em;
+    color: #003366;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.teimosinha-info {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.teimosinha-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.teimosinha-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.teimosinha-button {
+    background-color: #007bff; /* Cor de fundo para o botão da Teimosinha */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+.teimosinha-button:hover {
+    background-color: #0056b3; /* Cor mais escura quando o mouse passa */
 }
